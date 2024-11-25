@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "b-yekan";
+    src: url(font/BYekan/BYekan+.ttf);
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.title-right{
+    display: flex;
+    
+}

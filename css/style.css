@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "b-yekan";
+    src: url(font/BYekan/BYekan+.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: b-yekan ;
+}
+.photoLandingPage{
+    width: 100%;
+    height: 70vh;
+    
+}
+.photoLandingPage img{
+    width: 100%;
+    height: 100%;
+}
+.label{
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    height: 45vh;
+    background-color: #050505;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+}
+.logo{
+    width: 30%;
+    height: 100%;
+    
+}
+.logo img{
+    border-radius: 25%;
+    width: 100%;
+    height: 100%;
+}
+.label h1{
+    
+    font-size: 40%;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 8vh;
+}
+.continer{
+    
+    width: 80%;
+    height: 20vh;
+    margin-top: 9vh;
+    margin-right: 10%;
+    display: block;
+    color: white;
+    font-size: 70px;
+    border-spacing: 0;
+}
+
+.menu{
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    font-size:30%;
+}
+.info{
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    font-size:30%;
+}
+
+.parentLogo{
+    position: absolute;
+    bottom: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
