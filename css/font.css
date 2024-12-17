@@ -1,0 +1,8 @@
+@font-face {
+    font-family: vaziri;
+    src: url(font/BYekan/Vazir-Thin.ttf);
+}
+
+body{
+    font-family: vaziri;
+}
