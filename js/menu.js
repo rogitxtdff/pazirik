@@ -200,4 +200,13 @@ function run() {
     })
     
 }
+
+////////////*///////////////////////////////
+let mahramezanElem = document.getElementById('غذای ماه رمضان')
+
+    ghahveBarPayeEsperso.forEach(function (params) {
+
+        ghahveBarPayeEspersoElem.insertAdjacentHTML('beforeend','<div class="w-[90%] mb-1 text-sm text-gray-200  h-[2vh] flex justify-between" style="white-space:nowrap;"><div class="bg-[#474747] px-2">'+params.name+'</div><div style="border-bottom: 1px solid white;width: 80%;"></div><div class="bg-[#474747] px-1 ">'+params.price+'</div></div><div class="text-gray-400 text-right w-[90%] mr-5 mb-3 text-xs">'+params.about+'</div>')
+        
+    })
 run()
